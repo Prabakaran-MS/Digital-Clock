@@ -14,10 +14,12 @@ function showTime() {
     if (is24Hours) {
         clock.textContent = `${hour}:${min<10?'0':''}${min}:${sec<10?'0':''}${sec}`;
     } else {
-        if (hour > 12) {
+        if (hour >= 13) {
             clock.textContent = `${hour -12}:${min<10?'0':''}${min}:${sec<10?'0':''}${sec} PM`;
+        } else if (hour === 0) {
+            clock.textContent = `12:${min<10?'0':''}${min}:${sec<10?'0':''}${sec} AM`;
         } else {
-            clock.textContent = `${hour +12}:${min<10?'0':''}${min}:${sec<10?'0':''}${sec} AM`;
+            clock.textContent = `${hour}:${min<10?'0':''}${min}:${sec<10?'0':''}${sec} AM`;
         }
     }
 }
