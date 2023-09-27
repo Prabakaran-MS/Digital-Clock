@@ -19,8 +19,5 @@ This is a digital clock web application that displays the current time in both 1
 ## Screenshots
 ![Digital Clock Screenshot](./screenshot.png)
 
-## Author
-[Your Name]
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
