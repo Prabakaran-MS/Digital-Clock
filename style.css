@@ -1,14 +1,9 @@
-/* Reset default margin and padding */
-
 body,
 h1,
 button {
     margin: 0;
     padding: 0;
 }
-
-
-/* Center the content vertically and horizontally */
 
 body {
     display: flex;
@@ -17,7 +12,6 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
-    /* Background color for the body */
 }
 
 header {
@@ -31,29 +25,19 @@ header {
     align-items: center;
 }
 
-
-/* Style the circular clock display */
-
 .clock-circle {
     width: 200px;
     height: 200px;
     border: 2px solid #333;
-    /* Border color for the circle */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
     background-color: #fff;
-    /* Background color for the circle */
     color: #333;
-    /* Text color */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    /* Box shadow for depth */
 }
-
-
-/* Style the location button */
 
 button {
     background-color: #007BFF;
