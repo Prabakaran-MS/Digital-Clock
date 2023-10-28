@@ -1,7 +1,7 @@
 # Digital Clock
 
 ## Overview
-This is a digital clock web application that displays the current time in both 12-hour and 24-hour formats. It's a simple project built using HTML, CSS, and JavaScript.
+This is a digital clock web application that displays the current time in both 12-hour and 24-hour formats. It's a simple project built using HTML, CSS, JavaScript and Bootstrap.
 
 ## Features
 - Real-time display of the current time
@@ -17,8 +17,7 @@ This is a digital clock web application that displays the current time in both 1
 - JavaScript
 
 ## Screenshots
-![Digital Clock Screenshot](./screenshot.png)
-
+![Digital Clock Screenshot](image.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
