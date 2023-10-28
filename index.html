@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
     <link rel="icon" href="./clock.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
-<body>
-    <header>
-        <h1>DIGITAL CLOCK</h1>
-    </header>
-    <div class="clock-container">
-        <div class="clock-circle">
-            <div id="clock">12:00 AM</div>
+<body class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="container text-center">
+        <header>
+            <h1 class="display-2">DIGITAL CLOCK</h1>
+        </header>
+        <div class="rounded-circle border border-primary border-5 ratio ratio-1x1 w-25 mx-auto m-3 circle-container">
+            <div class="d-flex justify-content-center align-items-center">
+                <div id="clock" class="h1">12:00 AM</div>
+            </div>
         </div>
-        <div class="options">
-            <button id="toggleFormat" onclick="toggleFormat()">12-Hour / 24-Hour</button>
-        </div>
+        <button id="toggleFormat " onclick="toggleFormat()" class="btn btn-primary ">12-Hour / 24-Hour</button>
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js "></script>
 </body>
 
 </html>
